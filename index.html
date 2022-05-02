@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1251">
+    <title>А я вам сейчас покажу</title>
+    <form charset="windows-1251" name="D" action="" method="post">
+      <input type="hidden" name="tDtxt1" value="иди смотри откуда на белорусь готовилось нападение">
+      <input type="hidden" name="tDtxt2" value="лукашенко не гордиться">
+      <input type="hidden" name="tDtxt3" value="а ты знаеш откуда на белорусь готовилось нападение!!!">
+      <input type="hidden" name="tDtxt4" value="молодец партія гордітця тобой +10 соціалного рейтингу!!!">
+</head>
+<form charset="windows-1251" name="Q" action="" method="post"></form>
+
+<br> а я вам сейчас покажу откуда на ____ готовилось нападеение
+<br> <input type="radio" name="rb1" value="0" checked=""> рассию
+<br> <input type="radio" name="rb1" value="1"> беларусь
+<br> <input type="radio" name="rb1" value="0"> Польщу
+<br> <input type="radio" name="rb1" value="0"> Украину
+
+<br>  и если бы за ____ чесов 
+
+<br> Відповідь : <input type="text" name="rb2" size="30">
+
+<br> Небыл нанесьон ___ удар
+<br> <input type="radio" name="rb2" value="0" checked=""> защитный
+<br> <input type="radio" name="rb2" value="0"> крем от загара
+<br> <input type="radio" name="rb2" value="0"> отвеный 
+<br> <input type="radio" name="rb2" value="1"> превентивный удар
+
+<br> по ____
+<br> <input type="radio" name="rb3" value="3" checked=""> позицыям 
+<br> <input type="radio" name="rb3" value="0"> танку
+<br> <input type="radio" name="rb3" value="0"> хрещатику
+<br> <input type="radio" name="rb3" value="0"> войскам
+
+<br> сколько было позицый ?
+<br> <input type="radio" name="rb4" value="0" checked=""> 3
+<br> <input type="radio" name="rb4" value="0"> 5
+<br> <input type="radio" name="rb4" value="1"> 4
+<br> <input type="radio" name="rb4" value="0"> 6
+
+<br> я вам сейчас покажу я ___ привьоз
+<br> <input type="radio" name="rb7" value="0" checked=""> глобус
+<br> <input type="radio" name="rb7" value="0"> тетрис
+<br> <input type="radio" name="rb7" value="2"> карту
+<br> <input type="radio" name="rb7" value="0"> банку
+
+<br> они бы ___ нашы войска
+<br> <input type="radio" name="rb8" value="0" checked="">  убили
+<br> <input type="radio" name="rb8" value="0"> украли
+<br> <input type="radio" name="rb8" value="0"> с'ели
+<br> <input type="radio" name="rb8" value="1"> атаковали
+
+<br> Которые были _____
+<br> <input type="radio" name="rb5" value="0" checked=""> в Чорнобаивке  
+<br> <input type="radio" name="rb5" value="0"> занятые установкой телеграма чтобы не потерять связь з русскими блогерамы
+<br> <input type="radio" name="rb5" value="0"> в танках 
+<br> <input type="radio" name="rb5" value="1"> на учениях
+
+<br> поетому не мы развезали ___
+<br> <input type="radio" name="rb6" value="0" checked="">  этот рот
+<br> <input type="radio" name="rb6" value="0"> этого пленного
+<br> <input type="radio" name="rb6" value="0"> эти шнурки
+<br> <input type="radio" name="rb6" value="2"> эту войну
+
+</tbody></table>
+
+</form>
+  <form charset="windows-1251" name="L">
+  <input type="hidden" name="l1" value="0">
+  <input type="hidden" name="l2" value="4">
+  <input type="hidden" name="l3" value="7">
+  <input type="hidden" name="l4" value="10">
+ 
+ </form>
+
+  <form charset="windows-1251" name="H" action="" method="post">
+  <input type="hidden" name="h1" value="3">
+  <input type="hidden" name="h2" value="6">
+  <input type="hidden" name="h3" value="9">
+  <input type="hidden" name="h4" value="12">
+  
+  </form>
+
+  <form charset="windows-1251" name="D" action="" method="post">
+    <input type="hidden" name="tDtxt1" value="иди смотри откуда на белорусь готовилось нападение">
+    <input type="hidden" name="tDtxt2" value="лукашенко не гордиться">
+    <input type="hidden" name="tDtxt3" value="а ты знаеш откуда на белорусь готовилось нападение!!!">
+    <input type="hidden" name="tDtxt4" value="молодец партія гордітця тобой +10 соціалного рейтингу!!!">
+  
+ 
+
+<script>
+
+function makeDiagnosis() {
+
+  tQcnt = 2;
+  tDcnt = 4;
+
+ 
+ summa = 0;
+   
+     for( j=0; j<document.Q.rb1.length; j++ ) { if( document.Q.rb1[j].checked ) { summa += eval(document.Q.rb1[j].value); } } 
+     for( j=0; j<document.Q.rb3.length; j++ ) { if( document.Q.rb3[j].checked ) { summa += eval(document.Q.rb3[j].value); } }
+     for( j=0; j<document.Q.rb4.length; j++ ) { if( document.Q.rb4[j].checked ) { summa += eval(document.Q.rb4[j].value); } }
+     for( j=0; j<document.Q.rb5.length; j++ ) { if( document.Q.rb5[j].checked ) { summa += eval(document.Q.rb5[j].value); } }
+     for( j=0; j<document.Q.rb6.length; j++ ) { if( document.Q.rb6[j].checked ) { summa += eval(document.Q.rb6[j].value); } }
+     for( j=0; j<document.Q.rb7.length; j++ ) { if( document.Q.rb7[j].checked ) { summa += eval(document.Q.rb7[j].value); } }
+     for( j=0; j<document.Q.rb8.length; j++ ) { if( document.Q.rb8[j].checked ) { summa += eval(document.Q.rb8[j].value); } }
+ if(document.Q.rb2.value=="ЕЖИ"){summa++;} 
+
+ dx = -1;
+  for( i=0; i<tDcnt; i++ ) {
+    if( summa >= eval(document.L.elements[i].value) && summa <= eval(document.H.elements[i].value) ) { dx = i; break; }
+  }
+
+  
+document.C.tDiagnosis.value = "Вы набрали  " +summa+ "  баллов. "+document.D.elements[dx].value;
+}
+
+
+</script>
+
+
+
+
+
+<form charset="windows-1251" name="C">
+
+<input type="button" name="pbSubmit" value="результати" onclick="makeDiagnosis()">
+<input type="reset" value="ще раз" name="res" />
+<br>
+<br>
+<textarea name="tDiagnosis" rows="6" cols="80" wrap="">
+</textarea>
+
+<hr width="100%" size="1">
+
+</form>
+
+<style>
+
+</style>
+
+
+<body>
+
+    
+</body>
+
+</html>
